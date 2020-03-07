@@ -1,0 +1,18 @@
+li{
+  position: relative;
+    &::before{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: #ea6e67;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.2s;
+  }
+  &:hover::before{
+    width: 80%;
+  }
+}

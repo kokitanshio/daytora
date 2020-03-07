@@ -101,6 +101,27 @@ h2 {
   transform: scale(1.1);
 }
 
+li {
+  position: relative;
+}
+
+li::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #ea6e67;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s;
+}
+
+li:hover::before {
+  width: 80%;
+}
+
 header {
   padding: 20px 0;
 }
@@ -128,12 +149,12 @@ header .header-right {
 }
 
 header .header-right li + li {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 @media screen and (min-width: 992px) {
   header .header-right li + li {
-    padding-left: 40px;
+    margin-left: 40px;
   }
 }
 

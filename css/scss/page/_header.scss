@@ -16,9 +16,9 @@ header{
     display: flex;
     justify-content:center;
     li+li{
-      padding-left: 20px;
+      margin-left: 20px;
       @include mq(){
-        padding-left: 40px;
+        margin-left: 40px;
       }
     }
   }
