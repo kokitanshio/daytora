@@ -1,0 +1,31 @@
+.to-top{
+  display: none;
+  color: #fff;
+  background-color: #5e5e5e;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  opacity: 0.8;
+  width: 40px;
+  height: 40px;
+  bottom: 30px;
+  right: 30px;
+  i{
+    line-height: 40px;
+    text-align: center;
+    display: block;
+  }
+  &:hover{
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  @include mq(){
+    width: 60px;
+    height: 60px;
+    bottom: 60px;
+    right: 60px;
+    i{
+      line-height: 60px;
+    }
+  }
+}

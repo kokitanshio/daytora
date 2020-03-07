@@ -1,0 +1,26 @@
+.contact{
+  padding-bottom: 80px;
+  form{
+    input{
+      width: calc(100% - 40px);
+      max-width: 600px;
+      padding:20px;
+      border-radius: 50px;
+      border: 1px solid #5e5e5e;
+      margin: 20px 0;
+      &:focus{
+        border-radius: 50px;
+      }
+    }
+    .btn{
+      width: 100%;
+      max-width: 480px;
+      background-color: #ea6e67;
+      color: #fff;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 24px;
+      padding: 20px;
+    }
+  }
+}

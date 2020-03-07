@@ -1,0 +1,25 @@
+header{
+  padding: 20px 0;
+  .header-inner{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-left{
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    @include mq(){
+      padding: 0;
+    }
+  }
+  .header-right{
+    display: flex;
+    justify-content:center;
+    li+li{
+      padding-left: 20px;
+      @include mq(){
+        padding-left: 40px;
+      }
+    }
+  }
+}

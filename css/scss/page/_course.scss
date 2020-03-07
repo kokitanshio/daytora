@@ -1,0 +1,19 @@
+.course{
+  &-container{
+    @include mq(){
+      display: flex;
+    }
+    &-item{
+      text-align-last: left;
+      margin-bottom: 20px;
+      img{
+        width: 100%;
+      }
+      &+.course-container-item{
+        @include mq(){
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

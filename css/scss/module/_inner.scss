@@ -1,0 +1,9 @@
+.inner{
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  @include mq(){
+    max-width: 980px;
+  }
+}

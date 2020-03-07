@@ -1,0 +1,19 @@
+.about{
+  padding-top: 50px;
+  &-container{
+    width: 100%;
+    img{
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    } 
+    &-text{
+      width: 100%;
+      text-align-last: left;
+      @include mq(){
+        margin-left: 20px;
+        font-size: 20px;
+      }
+    }
+  }
+}

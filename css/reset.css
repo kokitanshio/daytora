@@ -22,6 +22,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
+  text-decoration: none;
 }
 
 html {
@@ -63,4 +64,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 img {
   border: none;
   vertical-align: bottom;
+}
+
+a{
+  color: black;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.6;
+}
+
+p{
+  padding: 10px 0;
 }

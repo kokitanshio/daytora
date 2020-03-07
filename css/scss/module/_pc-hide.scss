@@ -1,0 +1,6 @@
+.pc-hide{
+  display: block;
+  @include mq(){
+    display: none;
+  }
+}

@@ -1,0 +1,7 @@
+section{
+  padding: 20px;
+  text-align: center;
+  @include mq(){
+    padding: 20px 40px;
+  }
+}
